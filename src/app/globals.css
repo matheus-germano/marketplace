@@ -6,13 +6,33 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --title: #222;
+  --text: #333;
+  --gray-100: #E1E1E6;
+  --gray-300: #C4C4CC;
+  --gray-400: #8D8D99;
+  --gray-500: #7C7C8A;
+  --gray-600: #323238;
+  --gray-700: #29292E;
+  --gray-800: #202024;
+  --gray-900: #121214;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+    --title: #FFF;
+    --text: #f1f2f5;
+    --gray-900: #E1E1E6;
+    --gray-800: #C4C4CC;
+    --gray-700: #8D8D99;
+    --gray-600: #7C7C8A;
+    --gray-500: #323238;
+    --gray-400: #29292E;
+    --gray-300: #202024;
+    --gray-100: #121214;
   }
 }
 
