@@ -16,9 +16,10 @@
   --gray-700: #29292E;
   --gray-800: #202024;
   --gray-900: #121214;
+  --white: #FFF;
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
@@ -33,6 +34,7 @@
     --gray-400: #29292E;
     --gray-300: #202024;
     --gray-100: #121214;
+    --white: #222;
   }
 }
 
